@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 400vh;
+    width: 100%;
+}
+#first{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#first #left{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 60%;
+    background-color: rgba(26, 23, 23, 0.934);
+}
+#text1{
+    position: absolute;
+    color: white;
+    height: 30%;
+    width: 50%;
+    top: 35%;
+    left: 30%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#text1 h1{
+    color: rgb(255, 204, 0);
+}
+#first #right{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 40%;
+    background-color: rgb(255, 204, 0);
+    left: 60%;
+}
+#contacts{
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#contacts a{
+    display: inline-block;
+    padding-left:60px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+#first #photo{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 19%;
+    top: 30%;
+    left: 49%;
+    background-image: url(image6.jpg.png);
+}
+#second{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(26, 23, 23, 0.911);
+}
+#photo1{
+    position: absolute;
+    height: 55%;
+    width: 20%;
+    top: 24%;
+    left: 18%;
+    background-color: rgb(255, 204, 0);
+}
+#photo12{
+    display: flex;
+    position: absolute;
+    height: 95%;
+    width: 95%;
+    background-color: rgba(26, 23, 23, 0.911);
+    left: 2.5%;
+    top: 2.5%;
+}
+#photo2{
+    position: absolute;
+    height: 55%;
+    width: 20%;
+    object-fit: cover;
+    background-color: white;
+    background-image: url(image8.png);
+    background-size: cover;
+    left: 20%;
+    top: 20%;
+}
+
+#text2{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    left: 45%;
+    top: 35%;
+    color: white;
+}
+#line{
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background-color: rgb(255, 204, 0);
+    border-radius: 2px;
+}
+#third{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(26, 23, 23, 0.934);
+}
+#text3{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    height: 10%;
+    width: 60%;
+    left: 20%;
+    top: 15%;
+    color: white;
+}
+
+#line2{
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    background-color: rgb(255, 204, 0);
+    border-radius: 2px;
+}
+#image1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 30%;
+    left: 7%;
+    height: 50%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: rgb(255, 204, 0);
+}
+#image2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 37%;
+    height: 50%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: rgb(255, 204, 0);
+}
+
+#image3{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 30%;
+    left: 67%;
+    height: 50%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: rgb(255, 204, 0);
+}
+#fourth{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(26, 23, 23, 0.911);
+}
+#heading3{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    top: 15%;
+    left: 40%;
+    color: white;
+}
+#line3{
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    background-color: rgb(255, 204, 0);
+    border-radius: 2px;
+}
+#image4{
+    position: absolute;
+    display: flex;
+    background-size: cover;
+    height: 50%;
+    width: 35%;
+    background-image: url(image9.jpg);
+    top: 30%;
+    left: 15%;
+    
+}
+#image5{
+    position: absolute;
+    background-size: cover;
+    height: 50%;
+    width: 25%;
+    top: 30%;
+    left: 55%;
+    background-image: url(image10.jpg);
+    
+}
